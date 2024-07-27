@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form onsubmit=" return validate()" action="message.html">
+      <div class="inputcontrol">
+        <label for="uname">Username</label>
+        <input id="uname" placeholder="user name" type="text" /><br /><br />
+        <div id="error"></div>
+      </div>
+      <div class="inputcontrol">
+        <label for="pass">password</label>
+        <div class="error"></div>
+        <input id="pass" placeholder="password" type="password" /><br /><br />
+      </div>
+      <div>
+        <button type="submit">submit</button>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
